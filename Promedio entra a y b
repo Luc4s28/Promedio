@@ -1,0 +1,10 @@
+def promedio(nota1,nota2):
+    resultado=(nota1+nota2)/2
+    if resultado>=7 and resultado<=10:
+        print("Aprobado")
+    else:
+        if resultado<7:
+            print("Desaprobado")
+notaa=float(input("Ingrese un numero"))
+notab=float(input("Ingrese un numero"))
+promedio(notaa,notab)
